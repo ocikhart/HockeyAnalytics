@@ -24,7 +24,7 @@ def eval_vec(vec):
     return win
 
 
-data_directory_path = "/Users/ondrejcikhart/Desktop/Coding-projects/Hockey_analytics/data/"
+data_directory_path = "/Users/ondrejcikhart/Desktop/Projects/HockeyAnalytics/data/"
 season_file_path = data_directory_path + "player_matches.json"
 data_file_path = data_directory_path + "ppg_data.json"
 result_log_path = data_directory_path + "ppg_log.txt"

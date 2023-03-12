@@ -79,7 +79,7 @@ def global_eval(y_predict, X_e, y_e):
     return eval
 
 
-data_directory_path = "/Users/ondrejcikhart/Desktop/Coding-projects/Hockey_analytics/data/"
+data_directory_path = "/Users/ondrejcikhart/Desktop/Projects/HockeyAnalytics/data/"
 season_file_path = data_directory_path + "player_matches.json"
 data_file_path = data_directory_path + "ppg_data_linear.json"
 result_log_path = data_directory_path + "ppg_log.txt"
