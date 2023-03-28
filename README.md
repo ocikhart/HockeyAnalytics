@@ -21,11 +21,12 @@ Clone this repository and install the required dependencies.
 ```bash
 git clone https://github.com/ocikhart/HockeyAnalytics.git
 cd HockeyAnalytics
+mkdir data
 pip install -r requirements.txt
 ```
 
 ## Usage
-Replace `path/to/data.csv` with the path to your CSV data file and run the following command:
+The models create via `HALoaderDumpre.py` several data files like `data/player_matches.json` and `data/ppg_data.json` and running the following command willm execute learning and cross validation:
 
 ```bash
 python HA_Models_NN.py
