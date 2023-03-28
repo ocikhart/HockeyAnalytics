@@ -41,4 +41,40 @@ datum,kolo,soutěž,zápas,skóre,G,A,B,+-,TM,TOI,
 ...
 ```
 
+Generated JSON data example:
+```json
+{
+    "season": "22-23",
+    "players": [
+        {
+            "name": "giorgio-estephan",
+            "Tipsport": [
+                {
+                    "round": 50,
+                    ...
+                }
+            ],
+            "CHANCE": []
+        },
+        ...
+    ]
+}
+```
+
+## Approaches
+1. Naive Bayes
+2. Decision Trees
+3. Neural Networks
+
+Neural network model:
+
+```python
+model = Sequential(
+    [ 
+        Dense(24, activation = 'relu', kernel_regularizer=regularizers.L2(model_rec['regularization'])),
+        Dense(12, activation = 'relu', kernel_regularizer=regularizers.L2(model_rec['regularization'])),
+        Dense(1, activation = 'relu', kernel_regularizer=regularizers.L2(model_rec['regularization']))
+    ]
+)
+```
 
