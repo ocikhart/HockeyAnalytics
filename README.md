@@ -28,8 +28,20 @@ pip install -r requirements.txt
 Replace `path/to/data.csv` with the path to your CSV data file and run the following command:
 
 ```bash
-python main.py path/to/data.csv
+python HA_Models_NN.py
 ```
+or
+
+```bash
+python HA_Models_NB.py
+```
+
+or
+
+```bash
+python HA_Trees.py
+```
+
 
 ## Example
 CSV data example:
@@ -66,6 +78,7 @@ Generated JSON data example:
 2. Decision Trees
 3. Neural Networks
 
+
 Neural network model:
 
 ```python
@@ -78,3 +91,9 @@ model = Sequential(
 )
 ```
 
+## Results
+The best-performing approach is the neural network, with the following results:
+
+- Success rate = 879 / 1185, i.e., 74.18%
+- Precision rate = [0.5374592833876222, 0.0]
+- Recall rate = [0.5015197568389058, 0.0]
