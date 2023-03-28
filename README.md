@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-The models create via `HALoaderDumpre.py` several data files like `data/player_matches.json` and `data/ppg_data.json` and running the following command willm execute learning and cross validation:
+The models create via `HALoaderDumper.py` several data files like `data/player_matches.json` and `data/ppg_data.json` and running the following command willm execute learning and cross validation:
 
 ```bash
 python HA_Models_NN.py
